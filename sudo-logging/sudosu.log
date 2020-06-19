@@ -1,0 +1,52 @@
+Jun 14 15:26:05 localhost sudo[1573]: oguzhan : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/cd root/
+Jun 14 15:26:31 localhost sudo[1594]: oguzhan : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/cd root/
+Jun 14 15:37:56 localhost sudo[2090]: oguzhan : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/yum update -y
+Jun 14 15:39:25 localhost sudo[2154]: oguzhan : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/yum install yum-utils
+Jun 14 15:42:21 localhost sudo[2281]: oguzhan : TTY=pts/0 ; PWD=/home/oguzhan ; USER=root ; COMMAND=/bin/yum install python3
+Jun 14 17:51:28 localhost sudo[7496]: oguzhan : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/bin/touch sudos.log
+Jun 14 18:15:18 localhost sudo[8507]: oguzhan : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/bin/chmod 777 sudos.log
+Jun 14 20:06:52 localhost sudo[13133]: oguzhan : TTY=pts/1 ; PWD=/home/oguzhan/development/sudo-logging ; USER=root ; COMMAND=/bin/kill 813
+Jun 14 20:07:56 localhost sudo[13212]: oguzhan : TTY=pts/1 ; PWD=/home/oguzhan/development/sudo-logging ; USER=root ; COMMAND=/bin/kill 13141
+Jun 14 20:23:09 localhost sudo[13916]: oguzhan : TTY=pts/1 ; PWD=/home ; USER=root ; COMMAND=/bin/pkill -9 python
+Jun 14 20:24:23 localhost sudo[14006]: oguzhan : TTY=pts/1 ; PWD=/home ; USER=root ; COMMAND=/bin/kill 13924
+Jun 14 20:24:33 localhost sudo[14009]: oguzhan : TTY=pts/1 ; PWD=/home ; USER=root ; COMMAND=/bin/kill 13920
+Jun 14 20:24:43 localhost sudo[14053]: oguzhan : TTY=pts/1 ; PWD=/home ; USER=root ; COMMAND=/bin/kill 787
+Jun 15 20:57:01 virtual1 sudo[3482]: oguzhan : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/bin/vim secure
+Jun 15 20:59:53 virtual1 sudo[3601]: oguzhan : TTY=pts/0 ; PWD=/home/oguzhan/development/sudo-logging ; USER=root ; COMMAND=/bin/tail -f -n 50 /var/log/secure
+Jun 15 21:01:35 virtual1 sudo[3733]: oguzhan : TTY=pts/0 ; PWD=/home/oguzhan/development/sudo-logging ; USER=root ; COMMAND=/bin/tail -f -n 0 /var/log/secure
+Jun 15 21:02:43 virtual1 sudo[3826]: oguzhan : TTY=pts/0 ; PWD=/home/oguzhan/development/sudo-logging ; USER=root ; COMMAND=/bin/tail -f -n 0 /var/log/secure
+Jun 15 21:04:18 virtual1 sudo[3891]: oguzhan : TTY=pts/0 ; PWD=/home/oguzhan/development/sudo-logging ; USER=root ; COMMAND=/sbin/usermod -aG wheel oguzhan
+Jun 15 21:05:35 virtual1 sudo[3955]: oguzhan : TTY=pts/0 ; PWD=/home/oguzhan/development/sudo-logging ; USER=root ; COMMAND=/bin/ls -la /root/
+Jun 15 21:08:50 virtual1 sudo[4109]: oguzhan : TTY=pts/0 ; PWD=/etc ; USER=root ; COMMAND=/bin/vi passwd
+Jun 15 21:09:05 virtual1 sudo[4121]: oguzhan : TTY=pts/0 ; PWD=/etc ; USER=root ; COMMAND=/bin/vi passwd
+Jun 15 21:09:21 virtual1 sudo[4133]: oguzhan : TTY=pts/0 ; PWD=/etc ; USER=root ; COMMAND=/bin/vi passwd
+Jun 15 21:10:27 virtual1 sudo[4183]: oguzhan : TTY=pts/0 ; PWD=/etc ; USER=oguzhan ; COMMAND=/bin/bash
+Jun 15 21:14:08 virtual1 sudo[4354]: oguzhan : TTY=pts/0 ; PWD=/etc ; USER=root ; COMMAND=/bin/bash
+Jun 15 21:15:51 virtual1 sudo[4494]: oguzhan : TTY=pts/1 ; PWD=/home/oguzhan/development/sudo-logging ; USER=root ; COMMAND=/bin/python3 sudo-logger.py
+Jun 15 21:16:40 virtual1 sudo[4545]: oguzhan : TTY=pts/1 ; PWD=/home/oguzhan/development/sudo-logging ; USER=root ; COMMAND=/bin/python3 sudo-logger.py
+Jun 15 21:18:04 virtual1 sudo[4645]: oguzhan : TTY=pts/1 ; PWD=/home/oguzhan/development/sudo-logging ; USER=root ; COMMAND=/bin/python3 sudo-logger.py
+Jun 15 21:19:52 virtual1 sudo[4739]: oguzhan : TTY=pts/1 ; PWD=/home/oguzhan/development/sudo-logging ; USER=root ; COMMAND=/bin/python3 sudo-logger.py
+Jun 15 21:22:49 virtual1 sudo[4860]: oguzhan : TTY=pts/1 ; PWD=/home/oguzhan/development/sudo-logging ; USER=root ; COMMAND=/bin/python3 sudo-logger.py
+Jun 15 21:23:32 virtual1 sudo[4960]: oguzhan : TTY=pts/1 ; PWD=/home/oguzhan/development/sudo-logging ; USER=root ; COMMAND=/bin/vi /var/log/secure
+Jun 15 21:25:10 virtual1 sudo[5027]: oguzhan : TTY=pts/1 ; PWD=/home/oguzhan/development/sudo-logging ; USER=root ; COMMAND=/bin/vi /var/log/secure
+Jun 15 21:25:23 virtual1 sudo[5039]: oguzhan : TTY=pts/1 ; PWD=/home/oguzhan/development/sudo-logging ; USER=root ; COMMAND=/bin/python3 sudo-logger.py
+Jun 15 21:26:41 virtual1 sudo[5093]: oguzhan : TTY=pts/1 ; PWD=/home/oguzhan/development/sudo-logging ; USER=root ; COMMAND=/bin/python3 sudo-logger.py
+Jun 15 21:27:43 virtual1 sudo[5143]: oguzhan : TTY=pts/1 ; PWD=/home/oguzhan/development/sudo-logging ; USER=root ; COMMAND=/bin/python3 sudo-logger.py
+Jun 15 21:27:50 virtual1 sudo[5153]: oguzhan : TTY=pts/1 ; PWD=/home/oguzhan/development/sudo-logging ; USER=root ; COMMAND=/bin/python3 sudo-logger.py
+Jun 15 21:28:18 virtual1 sudo[5176]: oguzhan : TTY=pts/1 ; PWD=/home/oguzhan/development/sudo-logging ; USER=root ; COMMAND=/bin/python3 sudo-logger.py
+Jun 19 18:54:07 virtual1 sudo[101476]: oguzhan : TTY=pts/0 ; PWD=/home/oguzhan/development ; USER=root ; COMMAND=/sbin/adduser oZ
+Jun 19 18:54:33 virtual1 sudo[101503]: oguzhan : TTY=pts/0 ; PWD=/home/oguzhan/development ; USER=root ; COMMAND=/sbin/adduser oZ
+Jun 19 18:56:28 virtual1 sudo[101585]: oguzhan : TTY=pts/0 ; PWD=/home/oguzhan/development ; USER=root ; COMMAND=/bin/passwd oZ
+Jun 19 18:57:32 virtual1 sudo[101637]: oguzhan : TTY=pts/0 ; PWD=/home/oguzhan/development ; USER=root ; COMMAND=/sbin/visudo
+Jun 19 19:01:13 virtual1 sudo[101841]: oguzhan : TTY=pts/0 ; PWD=/home/oguzhan ; USER=root ; COMMAND=/bin/cp -a /home/oguzhan/ /home/oZ
+Jun 19 19:01:17 virtual1 sudo[101847]: oguzhan : TTY=pts/0 ; PWD=/home/oguzhan ; USER=root ; COMMAND=/bin/cp -a /home/oguzhan/ /home/oZ/
+Jun 19 19:01:42 virtual1 sudo[101873]: oguzhan : TTY=pts/0 ; PWD=/home/oguzhan ; USER=root ; COMMAND=/bin/cp -r /home/oguzhan/development/ /home/oZ/
+Jun 19 19:03:01 virtual1 sudo[101965]:      oZ : TTY=pts/0 ; PWD=/home/oZ ; USER=root ; COMMAND=/bin/rm oguzhan/ -r
+Jun 19 19:16:15 virtual1 sudo[102543]:      oZ : TTY=pts/0 ; PWD=/home/oZ/development/sudo-logging ; USER=root ; COMMAND=/bin/chmod 777 sudo-logger.py
+Jun 19 19:19:03 virtual1 sudo[102682]:      oZ : TTY=pts/0 ; PWD=/home/oZ/development ; USER=root ; COMMAND=/bin/touch log.log
+Jun 19 19:19:25 virtual1 sudo[102707]:      oZ : TTY=pts/0 ; PWD=/home/oZ/development ; USER=root ; COMMAND=/bin/chmod 777 log.log
+Jun 19 19:22:42 virtual1 sudo[102898]:      oZ : TTY=pts/0 ; PWD=/home/oZ/development/sudo-logging ; USER=root ; COMMAND=/bin/python3 sudo-logger.py
+Jun 19 19:28:09 virtual1 sudo[103145]:      oZ : TTY=pts/0 ; PWD=/home/oZ/development ; USER=root ; COMMAND=/bin/cp -r /home/oZ/development/ /home/oguzhan/fromOz
+Jun 19 19:39:03 virtual1 sudo[103684]: oguzhan : TTY=pts/0 ; PWD=/home/oguzhan/fromOz/sudo-logging ; USER=root ; COMMAND=/bin/touch sudosu.py
+Jun 19 19:40:06 virtual1 sudo[103752]: oguzhan : TTY=pts/0 ; PWD=/home/oguzhan/fromOz/sudo-logging ; USER=root ; COMMAND=/bin/chmod 777 sudosu.py
+Jun 19 19:41:42 virtual1 sudo[103869]: oguzhan : TTY=pts/0 ; PWD=/home/oguzhan/fromOz/sudo-logging ; USER=root ; COMMAND=/bin/python3 sudosu.py
